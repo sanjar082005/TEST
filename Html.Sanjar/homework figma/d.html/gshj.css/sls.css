@@ -1,0 +1,333 @@
+Shaxzod Shokirov 💻,
+[12.12.2022 14:49] * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #888888;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 400px;
+  background-image: url('../public/img/Header.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  width: 100%;
+  padding: 20px 90px;
+}
+
+
+.logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo__item span {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+  color: #F65261;
+}
+
+.logo__item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #F65261;
+}
+
+.logo button {
+  width: 177px;
+  height: 46px;
+  border: none;
+  background: rgba(96, 96, 96, 0.68);
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #F65261;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  justify-content: space-between;
+  padding: 70px;
+  color: #F65261;
+}
+
+.title h1 {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.title__b {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px 0;
+}
+
+.title__b input {
+  width: 713px;
+  height: 57px;
+  background: rgba(50, 50, 50, 0.8);
+  border: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 20px;
+}
+
+.title__b button {
+  margin-right: 220px;
+  width: 233px;
+  text-transform: uppercase;
+  height: 57px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  background: #F65261;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
+.main {
+  margin-top: 30px;
+  background: rgba(35, 35, 35, 1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(8, 7, 7, 1);
+}
+
+.navbar ul {
+  display: flex;
+  text-transform: uppercase;
+  gap: 30px;
+  /* margin-bottom: 20px; */
+  margin-left: 10px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar ul a {
+  display: flex;
+  text-transform: uppercase;
+  gap: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.border__activ {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(246, 82, 97, 1);
+}
+
+.navbar ul li select {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+
+
+.select-dropdown select {
+  position: relative;
+  font-size: 1rem;
+  font-weight: normal;
+  max-width: 100%;
+  padding: 8px 24px 8px 10px;
+  border: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.select-dropdown select:active,
+.select-dropdown select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.select-dropdown:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin-top: 5px;
+  border-top: 5px solid #F65261;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+.title__movie {
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 30px 10px;
+  gap: 10px;
+}
+
+.title__movie p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.movie__content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+Shaxzod Shokirov 💻,
+[12.12.2022 14:49] .movie__box {
+  width: 320px;
+}
+
+.movie__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #FFFFFF;
+  padding: 15px 0;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+}
+
+.movie__text h2 {
+  padding: 0 0 15px 0;
+  opacity: 0.7;
+}
+
+.movie__text p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.movie__btn {
+  border: none;
+  width: 66px;
+  height: 26px;
+  background: none;
+  border: 1px solid rgba(151, 151, 151, 1);
+  color: rgba(151, 151, 151, 1);
+  opacity: 0.7;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+}
+
+.movie__img {
+  cursor: pointer;
+  position: relative;
+}
+
+
+.menu__contant {
+  display: none;
+  position: absolute;
+  top: 16px;
+  right: 14px;
+  color: #FFFFFF;
+}
+
+.movie__img:hover .menu__contant {
+  display: block;
+}
+
+.menu__btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  background: #2A202D;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.196596);
+  border-radius: 50%;
+}
+
+/* .menu__none {
+    display: none;
+} */
+
+.menu__btn span {
+  border-radius: 50%;
+  background: #FFFFFF;
+  width: 4px;
+  height: 4px;
+}
+
+.menu__box {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  width: 190px;
+  height: 111px;
+  background: #FFFFFF;
+}

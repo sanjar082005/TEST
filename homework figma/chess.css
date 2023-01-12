@@ -1,0 +1,62 @@
+.rock {
+  width: 120px;
+  height: 120px;
+  border: 2px solid rgb(21, 66, 35);
+  display: inline-block;
+  margin: -4px;
+  padding: -3px;
+
+}
+
+.rock1 {
+  background-color: black;
+}
+
+.line1 {
+  position: absolute;
+  top: 0px;
+
+}
+
+.line2 {
+  position: absolute;
+  top: 120px;
+
+}
+
+.line3 {
+  position: absolute;
+  top: 240px;
+
+
+}
+
+.line4 {
+  position: absolute;
+  top: 360px;
+
+}
+
+.line5 {
+  position: absolute;
+  top: 480px;
+
+}
+
+.line6 {
+  position: absolute;
+  top: 600px;
+
+}
+
+.line7 {
+  position: absolute;
+  top: 720px;
+
+}
+
+.line8 {
+  position: absolute;
+  top: 840px;
+
+}
